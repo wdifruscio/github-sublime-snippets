@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="$1">
+        <meta name="author" content="Sally Linns">
+        <meta name="keywords" content="Developer, Designer, Photographer">
+<!--         <meta name="robots" content=""> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta name="twitter:card" content="summary/description">
+        <meta name="twitter:url" content="https://website.com">
+        <meta name="twitter:title" content="Title of website">
+        <meta name="twitter:description" content="description">
+        <title>${2:Untitled}</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        $3
+        <script src="js/main.js"></script>
+    </body>
+</html>]]></content>
+    <tabTrigger>htmlFull</tabTrigger>
+    <description>HTML - HTML foundation</description>
+    <scope>text.html</scope>
+</snippet>
